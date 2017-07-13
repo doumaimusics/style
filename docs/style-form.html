@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CSS 表单 - cxStyle</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1, user-scalable=no" media="(device-height:568px)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-touch-fullscreen" content="yes">
+<meta name="format-detection" content="telephone=no">
+<link rel="stylesheet" href="../static/css/base.css">
+<link rel="stylesheet" href="../static/css/layout.css">
+<link rel="stylesheet" href="css/demo.css">
+<script src="../static/js/zepto.min.js"></script>
+<script src="../static/js/plugins.js"></script>
+<script src="../static/js/controller/init.js"></script>
+</head>
+<body class="gray">
+<div class="wrap">
+  <div id="header" class="header">
+    <header>
+      <h1>cxStyle</h1>
+      <a class="icon back" href="index.html"></a>
+    </header>
+  </div>
+
+  <div class="mbox">
+    <h2>Form</h2>
+  </div>
+
+  <form action="?" method="get" class="form">
+    <div class="row_group">
+      <dl class="row note">
+        <dt>Email</dt>
+        <dd>a***z@gmail.com</dd>
+      </dl>
+      <dl class="row">
+        <dt><label for="login_name">用户名</label></dt>
+        <dd><input type="text" id="login_name" class="input full" placeholder="Email / 手机号码"></dd>
+      </dl>
+      <dl class="row">
+        <dt><label for="login_pwd">密码</label></dt>
+        <dd><input type="password" id="login_pwd" class="input full" placeholder="密码由数字、字母组成"></dd>
+      </dl>
+    </div>
+
+    <div class="note">Placeholder</div>
+    <div class="row_group">
+      <div class="row">
+        <input type="text" class="input full" placeholder="用户名">
+      </div>
+      <div class="row">
+        <input type="password" class="input full" placeholder="密码">
+      </div>
+    </div>
+
+    <div class="note">Note</div>
+    <dl class="row note">
+      <dt>Note</dt>
+      <dd>Note</dd>
+    </dl>
+
+    <!-- 
+    <div class="note">Column</div>
+    <div class="col_group">
+      <div class="col note">a***z@gmail.com</div>
+      <div class="col">
+        <input type="tel" class="input full small border">
+      </div>
+    </div>
+    <div class="col_group">
+      <dl class="col note">
+        <dt>Email</dt>
+        <dd>a***z@gmail.com</dd>
+      </dl>
+      <dl class="col">
+        <dt>手机号码</dt>
+        <dd><input type="tel" class="input full small border"></dd>
+      </dl>
+    </div>
+     -->
+    <div class="btns mbox">
+      <button type="submit" class="button full blue">提交</button>
+    </div>
+  </form>
+
+  <footer class="footer"></footer>
+</div>
+<script src="../static/js/controller/ready.js"></script>
+</body>
+</html>
